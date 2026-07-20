@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cliente-a
+  title: "Cliente A"
+  description: "Dominio organizativo de TI asignado al Cliente Ficticio A"
+spec:
+  owner: guest
