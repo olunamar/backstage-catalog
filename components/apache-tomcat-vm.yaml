@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: apache-tomcat-oracle-vm
+  title: "Apache Tomcat Server"
+  description: "Instancia web Apache Tomcat ejecutándose sobre Oracle Linux"
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
+  system: cliente-a-infra-system
+  dependsOn:
+    - component:oracle-linux-vm-provision
