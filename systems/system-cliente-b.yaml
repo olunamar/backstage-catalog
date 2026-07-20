@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Domain
+kind: System
 metadata:
-  name: cliente-b
-  title: "Cliente B"
-  description: "Dominio organizativo de TI asignado al Cliente Ficticio B"
+  name: cliente-b-infra-system
+  title: "Infraestructura Cliente B"
+  description: "Agrupación de servicios de cómputo y middleware para el Cliente B"
 spec:
   owner: guest
+  domain: cliente-b
