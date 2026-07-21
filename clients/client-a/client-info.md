@@ -21,7 +21,7 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 - **Aceptación**
 - **Desarrollo**
 
-## 📱:thumbsup: Niveles de servicio comprometidos
+## :thumbsup: Niveles de servicio comprometidos
 | Code | Service level | Description | RTO (hrs) | RPO (hrs)
 | :--- | :--- | :--- | :--- | :--- |
 | `P1` | Critical | Business-critical production environments. | 2 | 0 |
