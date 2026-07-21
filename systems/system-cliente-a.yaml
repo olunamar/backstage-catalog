@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: cliente-a-infra-system
-  title: "Infraestructura Cliente A"
-  description: "Agrupación de servicios de cómputo y middleware para el Cliente A"
-spec:
-  owner: guest
-  domain: cliente-a
