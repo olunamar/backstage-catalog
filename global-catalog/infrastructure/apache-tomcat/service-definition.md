@@ -54,3 +54,13 @@ Cualquier instancia de este servicio heredará los siguientes parámetros predet
 ## 🏷️ Mapeo de Etiquetas OKF / Google Cloud
 
 Para la correcta gobernanza en **OKF (GCP FinOps y tagging)** y el descubrimiento en **Backstage**, la automatización aplicará las siguientes etiquetas globales por defecto:
+
+```yaml
+labels:
+  backstage-kind: "component"
+  backstage-type: "service"
+  backstage-lifecycle: "production"
+  backstage-owner: "platform-engineering"
+  service-category: "middleware"
+  tech-stack: "java-tomcat"
+  depends-on: "oracle-linux-vm"
