@@ -2,6 +2,8 @@
 
 - **ID Cliente**: `cliente-a`
 - **Tipo de Entidad**: Domain (Backstage) / Carpeta GCP (OKF)
+- **customer_code**: `CLA`
+- **customer_sector**: `10 (Salud y Farma)`
 - **Proyecto Infraestructura**: `cliente-a-infra-prod`
 
 ---
