@@ -1,21 +1,33 @@
 ---
-type: <Type name>                  # REQUIRED
+type: reference                  # REQUIRED
 title: <Optional display name>
 description: <Optional one-line summary>
 resource: <Optional canonical URI for the underlying asset>
 tags: [<tag>, <tag>, …]            # Optional
 timestamp: <ISO 8601 datetime>     # Optional last-modified time
+datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 # … other producer-defined key/value pairs
 ---
 # Cliente: Cliente A
 
-- **ID Cliente**: `cliente-a`
-- **Tipo de Entidad**: Domain (Backstage) / Carpeta GCP (OKF)
-- **customer_code**: `CLA`
-- **customer_sector**: `10 (Salud y Farma)`
-- **Proyecto Infraestructura**: `cliente-a-infra-prod`
+- **Customer ID**: cliente-a
+- **Customer code**: CLA
+- **Customer sector**: Salud y Farma
+- **Customer description**: Empresa colaboradora con el servicio de residuos de la población de Terrassa.
+--
+## 📦 Entornos disponibles
+- **Producción**
+- **Pre-producción**
+- **Aceptación**
+- **Desarrollo**
 
----
+## 📦 Niveles de servicio comprometidos
+| Code | Service level | Description | RTO (hrs) | RPO (hrs)
+| :--- | :--- | :--- | :--- | :--- |
+| `P1` | Critical | Business-critical production environments. | 2 | 0 |
+| `P2` | High | High-criticality production environments and development environments. | 3 | 0 |
+| `P3` | Medium | Moderate-criticality production environments. | 6 | 12 |
+| `P4` | Low | Pre-production, training, and integration environments, etc., and low-criticality production environments. | 12 | 12 |
 
 ## 📦 Servicios Contratados / Activos
 
