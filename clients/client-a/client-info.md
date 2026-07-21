@@ -14,7 +14,7 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 - **Customer code**: CLA
 - **Customer sector**: Salud y Farma
 - **Customer description**: Empresa colaboradora con el servicio de residuos de la población de Terrassa.
---
+  
 ## :books: Entornos disponibles
 - **Producción**
 - **Pre-producción**
