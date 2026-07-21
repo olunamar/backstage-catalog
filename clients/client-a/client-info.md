@@ -15,13 +15,13 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 - **Customer sector**: Salud y Farma
 - **Customer description**: Empresa colaboradora con el servicio de residuos de la población de Terrassa.
 --
-## 📦 Entornos disponibles
+## :books: Entornos disponibles
 - **Producción**
 - **Pre-producción**
 - **Aceptación**
 - **Desarrollo**
 
-## 📦 Niveles de servicio comprometidos
+## :thumbsup: Niveles de servicio comprometidos
 | Code | Service level | Description | RTO (hrs) | RPO (hrs)
 | :--- | :--- | :--- | :--- | :--- |
 | `P1` | Critical | Business-critical production environments. | 2 | 0 |
