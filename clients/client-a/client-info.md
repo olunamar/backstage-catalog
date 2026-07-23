@@ -9,12 +9,11 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 # … other producer-defined key/value pairs
 ---
 # Cliente: Cliente A
-
 - **Customer ID**: cliente-a
 - **Customer code**: CLA
 - **Customer sector**: Salud y Farma
 - **Customer description**: Empresa colaboradora con el servicio de residuos de la población de Terrassa.
-  
+
 ## Entornos disponibles
 - **Producción**
 - **Pre-producción**
@@ -30,13 +29,10 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 | `P4` | Low | Pre-production, training, and integration environments, etc., and low-criticality production environments. | 12 | 12 |
 
 ## Servicios Contratados / Activos
-
 | Servicio Global | Instancia / Variación | Entorno | Estado |
 | :--- | :--- | :--- | :--- |
 | `oracle-linux-vm` | Estándar base | Prod | Activo |
 | `apache-tomcat` | Custom: Con JVM heap ajustado a 4GB | Prod | Activo |
-
----
 
 ## Personalizaciones Específicas del Cliente A
 - **Región GCP asignada**: `europe-west1` (Barcelona/Madrid)
