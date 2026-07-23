@@ -9,6 +9,7 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 # … other producer-defined key/value pairs
 ---
 # Cliente: Cliente A
+- **Customer status**: `ACTIVE`
 - **Customer ID**: cliente-a
 - **Customer code**: CLA
 - **Customer sector**: Salud y Farma
