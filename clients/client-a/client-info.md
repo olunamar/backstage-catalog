@@ -3,7 +3,7 @@ type: reference                  # REQUIRED
 title: <Optional display name>
 description: <Optional one-line summary>
 resource: <Optional canonical URI for the underlying asset>
-tags: [<tag>, <tag>, …]            # Optional
+tags: [salud, farma, cliente]            # Optional
 timestamp: <ISO 8601 datetime>     # Optional last-modified time
 datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 # … other producer-defined key/value pairs
