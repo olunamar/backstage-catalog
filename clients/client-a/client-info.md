@@ -35,6 +35,8 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 | :--- | :--- | :--- | :--- |
 | `oracle-linux-vm` | Estándar base | Prod | Activo |
 | `apache-tomcat` | Custom: Con JVM heap ajustado a 4GB | Prod | Activo |
+| `apache-http` | Custom: Con JVM heap ajustado a 4GB | Prod | Activo |
+| `redhat-wildfly` | Custom: Con JVM heap ajustado a 4GB | Prod | Activo |
 
 ## Personalizaciones Específicas del Cliente A
 - **Región GCP asignada**: `europe-west1` (Barcelona/Madrid)
