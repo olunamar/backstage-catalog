@@ -15,13 +15,13 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 - **Customer sector**: Salud y Farma
 - **Customer description**: Empresa colaboradora con el servicio de residuos de la población de Terrassa.
   
-## :books: Entornos disponibles
+## Entornos disponibles
 - **Producción**
 - **Pre-producción**
 - **Aceptación**
 - **Desarrollo**
 
-## :thumbsup: Niveles de servicio comprometidos
+## Niveles de servicio comprometidos
 | Code | Service level | Description | RTO (hrs) | RPO (hrs)
 | :--- | :--- | :--- | :--- | :--- |
 | `P1` | Critical | Business-critical production environments. | 2 | 0 |
@@ -29,7 +29,7 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 | `P3` | Medium | Moderate-criticality production environments. | 6 | 12 |
 | `P4` | Low | Pre-production, training, and integration environments, etc., and low-criticality production environments. | 12 | 12 |
 
-## 📦 Servicios Contratados / Activos
+## Servicios Contratados / Activos
 
 | Servicio Global | Instancia / Variación | Entorno | Estado |
 | :--- | :--- | :--- | :--- |
@@ -38,6 +38,6 @@ datasource: MySQL.Database("x.x.x.x:4306", "database_name")
 
 ---
 
-## ⚙️ Personalizaciones Específicas del Cliente A
+## Personalizaciones Específicas del Cliente A
 - **Región GCP asignada**: `europe-west1` (Barcelona/Madrid)
 - **Etiqueta personalizada**: `cost-center: cliente-a-dept1`
